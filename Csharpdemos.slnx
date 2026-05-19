@@ -4,4 +4,10 @@
   <Project Path="03Demo/03Demo.csproj" Id="8d038428-2f88-4f62-aaaa-cf490d2f0da0" />
   <Project Path="04Demo/04Demo.csproj" Id="8d74a7cd-bc3f-446a-a527-5902ec81cbe2" />
   <Project Path="05Demo/05Demo.csproj" Id="a4faab01-d22d-4f2a-a9bb-383654638295" />
+  <Project Path="06Demo/06Demo.csproj" Id="b461f8ab-03a6-4cbe-a6c7-ad468ec1bc49" />
+  <Project Path="07Demo/07Demo.csproj" Id="12dd860a-dbe8-4615-b7f8-baeea8b35872" />
+  <Project Path="08Demo/08Demo.csproj" Id="834aaa5b-224b-4de0-bd79-43a6f7ba160a" />
+  <Project Path="09Demo/09Demo.csproj" Id="4ba26529-f249-4cd3-a988-51a1ab7a3bfc" />
+  <Project Path="10Demo/10Demo.csproj" Id="47d28bd6-574d-450a-8a9b-e3fd3a771d23" />
+  <Project Path="11Demo/11Demo.csproj" Id="b132ae8b-3492-49f3-b152-8a6c336323ca" />
 </Solution>
