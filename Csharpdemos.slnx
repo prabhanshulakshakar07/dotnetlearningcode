@@ -10,4 +10,7 @@
   <Project Path="09Demo/09Demo.csproj" Id="4ba26529-f249-4cd3-a988-51a1ab7a3bfc" />
   <Project Path="10Demo/10Demo.csproj" Id="47d28bd6-574d-450a-8a9b-e3fd3a771d23" />
   <Project Path="11Demo/11Demo.csproj" Id="b132ae8b-3492-49f3-b152-8a6c336323ca" />
+  <Project Path="12/12Demo.csproj" Id="74335221-6708-454b-90df-625993655510" />
+  <Project Path="13Demo/13Demo.csproj" Id="7ac1adee-8d5e-471a-a285-50611a2c1f8c" />
+  <Project Path="netflixsystem/netflixsystem.csproj" Id="262cf277-2175-45f9-97f6-74b62600b8cf" />
 </Solution>
