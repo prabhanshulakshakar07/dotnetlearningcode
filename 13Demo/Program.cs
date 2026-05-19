@@ -47,6 +47,10 @@ namespace _13Demo_OOP_Abstract
         }
     }
 
+    /// <summary>
+    /// this for xml because we want to add one more step for xml report 
+    /// which is Re_Validate() after Validate() and before Save()
+    /// </summary>
     public abstract class SpecialReport : Report
     {
         protected abstract void Re_Validate();
@@ -89,6 +93,8 @@ namespace _13Demo_OOP_Abstract
             return reportObj;
         }
     }
+
+
     public class PDF : Report
     {
         protected override void Parse()
