@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "Demo15_NotePad": {
+      "commandName": "Project"
+    },
+    "Container (Dockerfile)": {
+      "commandName": "Docker"
+    }
+  }
+}
