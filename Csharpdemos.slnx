@@ -18,5 +18,6 @@
   <Project Path="Demo15_NotePad/Demo15_NotePad.csproj" Id="33943daa-99d7-4232-ba3c-3097eb3e2726" />
   <Project Path="Demo16_MyMath/Demo16_MyMath.csproj" Id="6a3ef493-d2c5-4a0a-b760-d7106b0f2a3b" />
   <Project Path="EventsDelegate_Demo19/EventsDelegate_Demo19.csproj" Id="5298d592-a4bb-4ceb-bb9a-90e8232c19a2" />
+  <Project Path="MultiDelegate_Demo/MultiDelegate_Demo.csproj" Id="68bb9805-f48f-49be-bcc7-2fb85a53e4a3" />
   <Project Path="netflixsystem/netflixsystem.csproj" Id="262cf277-2175-45f9-97f6-74b62600b8cf" />
 </Solution>
