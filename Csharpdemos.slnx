@@ -13,11 +13,18 @@
   <Project Path="12/12Demo.csproj" Id="74335221-6708-454b-90df-625993655510" />
   <Project Path="13Demo/13Demo.csproj" Id="7ac1adee-8d5e-471a-a285-50611a2c1f8c" />
   <Project Path="CMathLib/CMathLib.csproj" Id="678a468e-0515-45dd-85d0-60f8bed93a44" />
+  <Project Path="Collections_Demo22/Collections_Demo22.csproj" Id="a9e630da-094c-414e-b6f8-9b73b05fe4ec" />
   <Project Path="delegatesDemo/delegatesDemo.csproj" Id="494737aa-f73a-48da-97cd-4ffbdcfa5231" />
   <Project Path="Demo14_Singlton/Demo14_Singlton.csproj" Id="f7b87fa7-a82e-492e-b487-19289c5b76e7" />
   <Project Path="Demo15_NotePad/Demo15_NotePad.csproj" Id="33943daa-99d7-4232-ba3c-3097eb3e2726" />
   <Project Path="Demo16_MyMath/Demo16_MyMath.csproj" Id="6a3ef493-d2c5-4a0a-b760-d7106b0f2a3b" />
   <Project Path="EventsDelegate_Demo19/EventsDelegate_Demo19.csproj" Id="5298d592-a4bb-4ceb-bb9a-90e8232c19a2" />
+  <Project Path="FileIODemo25/FileIODemo25.csproj" Id="0b0e10b7-fba5-4cfa-b7cf-5b95169e43c6" />
+  <Project Path="GenericCollection_Demo24/GenericCollection_Demo24.csproj" Id="80492482-0947-41f4-bb66-13def39ff851" />
+  <Project Path="GenericDemo23/GenericDemo23.csproj" Id="795fa9ca-5cbe-45e7-8804-199244f4e856" />
+  <Project Path="GenericDemo25/GenericDemo25.csproj" Id="2e36ff4c-0203-4312-b4e5-ea93e74a89e8" />
   <Project Path="MultiDelegate_Demo/MultiDelegate_Demo.csproj" Id="68bb9805-f48f-49be-bcc7-2fb85a53e4a3" />
   <Project Path="netflixsystem/netflixsystem.csproj" Id="262cf277-2175-45f9-97f6-74b62600b8cf" />
+  <Project Path="ObserverPattern_Demo21/ObserverPattern_Demo21.csproj" Id="6ac37189-6e56-426e-be12-c3f360c2f129" />
+  <Project Path="SerializationDemo27/SerializationDemo27.csproj" Id="dbfd0173-88ae-4851-a41e-33995bec58aa" />
 </Solution>
