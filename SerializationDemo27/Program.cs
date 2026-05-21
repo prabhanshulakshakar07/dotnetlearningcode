@@ -34,7 +34,7 @@ namespace SerializationDemo27
             //XmlSerializer xs = new XmlSerializer(typeof(Emp));
             //xs.Serialize(fs, emp);
             //fs.Close();
-            //Console.WriteLine("Done"); 
+            //Console.WriteLine("Done");
             #endregion
 
             #region xml Deserialize
@@ -55,34 +55,34 @@ namespace SerializationDemo27
 
 
             #region JSON Serialization
-            //if (File.Exists(filepath))
-            //{
-            //    fs = new FileStream(filepath2, FileMode.Append, FileAccess.Write);
-            //}
-            //else
-            //{
-            //    fs = new FileStream(filepath2, FileMode.Create, FileAccess.Write);
-            //}
-
-            //JsonSerializer.Serialize<Emp>(fs,emp);
-
-            //fs.Close();
-            //Console.WriteLine("Done"); 
-            #endregion
-
-            #region JSON Deserialize
             if (File.Exists(filepath))
             {
-                fs = new FileStream(filepath2, FileMode.Open, FileAccess.Read);
+                fs = new FileStream(filepath2, FileMode.Append, FileAccess.Write);
             }
             else
             {
-                Console.WriteLine("File does not exist");
+                fs = new FileStream(filepath2, FileMode.Create, FileAccess.Write);
             }
 
-            Emp emp2 = JsonSerializer.Deserialize<Emp>(fs) as Emp;
+            JsonSerializer.Serialize<Emp>(fs, emp);
+
             fs.Close();
-            Console.WriteLine($"{emp2.EId}, {emp2.EName}, {emp2.Address}");
+            Console.WriteLine("Done");
+            #endregion
+
+            #region JSON Deserialize
+            //if (File.Exists(filepath))
+            //{
+            //    fs = new FileStream(filepath2, FileMode.Open, FileAccess.Read);
+            //}
+            //else
+            //{
+            //    Console.WriteLine("File does not exist");
+            //}
+
+            //Emp emp2 = JsonSerializer.Deserialize<Emp>(fs) as Emp;
+            //fs.Close();
+            //Console.WriteLine($"{emp2.EId}, {emp2.EName}, {emp2.Address}");
             #endregion
         }
     }
