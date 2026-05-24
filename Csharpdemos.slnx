@@ -17,17 +17,22 @@
   <Project Path="Collections_Demo22/Collections_Demo22.csproj" Id="a9e630da-094c-414e-b6f8-9b73b05fe4ec" />
   <Project Path="CompanyLib/CompanyLib.csproj" Id="487ec850-9e79-48f2-8560-8d0644f68d00" />
   <Project Path="CSharpFeaturesDemo/CSharpFeaturesDemo.csproj" Id="a18d7301-69d3-4f05-8c2c-88597786a97f" />
+  <Project Path="DelegateMethod/DelegateMethod.csproj" Id="2bc45c1e-e762-4f51-af67-79cddb1ec27b" />
   <Project Path="delegatesDemo/delegatesDemo.csproj" Id="494737aa-f73a-48da-97cd-4ffbdcfa5231" />
   <Project Path="Demo14_Singlton/Demo14_Singlton.csproj" Id="f7b87fa7-a82e-492e-b487-19289c5b76e7" />
   <Project Path="Demo15_NotePad/Demo15_NotePad.csproj" Id="33943daa-99d7-4232-ba3c-3097eb3e2726" />
   <Project Path="Demo16_MyMath/Demo16_MyMath.csproj" Id="6a3ef493-d2c5-4a0a-b760-d7106b0f2a3b" />
   <Project Path="DemoLib/DemoLib.csproj" Id="c20066bf-a666-48f5-88dd-596e9b66a3a1" />
+  <Project Path="dotArch/dotArch.csproj" Id="ced49b1a-7ceb-4192-a22f-ddda13236b8e" />
   <Project Path="EmpLib/EmpLib.csproj" Id="515c54a7-bebb-47ff-8df1-6f95d53e9e44" />
   <Project Path="EventsDelegate_Demo19/EventsDelegate_Demo19.csproj" Id="5298d592-a4bb-4ceb-bb9a-90e8232c19a2" />
   <Project Path="FileIODemo25/FileIODemo25.csproj" Id="0b0e10b7-fba5-4cfa-b7cf-5b95169e43c6" />
   <Project Path="GenericCollection_Demo24/GenericCollection_Demo24.csproj" Id="80492482-0947-41f4-bb66-13def39ff851" />
   <Project Path="GenericDemo23/GenericDemo23.csproj" Id="795fa9ca-5cbe-45e7-8804-199244f4e856" />
   <Project Path="GenericDemo25/GenericDemo25.csproj" Id="2e36ff4c-0203-4312-b4e5-ea93e74a89e8" />
+  <Project Path="LINQ Real/LINQ Real.csproj" Id="0c2a9ae0-4263-48d0-8781-8add4995ce0d" />
+  <Project Path="LINQ/LINQ.csproj" Id="f84bc892-982d-4c0a-8a80-5fcd2db14dd8" />
+  <Project Path="LinqDemo/LinqDemo.csproj" Id="e549b5a3-e5f0-4a41-bb19-e73978f7bb38" />
   <Project Path="MultiDelegate_Demo/MultiDelegate_Demo.csproj" Id="68bb9805-f48f-49be-bcc7-2fb85a53e4a3" />
   <Project Path="MyAttributeLib/MyAttributeLib.csproj" Id="f47fff61-ad6e-4588-8df6-bbe943fae4e9" />
   <Project Path="MyMathLib/MyMathLib.csproj" Id="941b734d-1b97-4c90-a23f-28de141dc023" />

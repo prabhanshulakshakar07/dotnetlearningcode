@@ -1,4 +1,6 @@
-﻿namespace CSharpFeaturesDemo
+﻿using System.Collections;
+
+namespace CSharpFeaturesDemo
 {
     public delegate bool CheckDelegate(int num);
     internal class Program
@@ -176,6 +178,19 @@
             //                                        {
             //                                            return num > 10;
             //                                        });
+            //            if (del(x))
+            //            {
+            //                Console.WriteLine($"{x} is greater than 10");
+            //            }
+            //            else
+            //            {
+            //                Console.WriteLine($"{x} is less than 10");
+            //            } 
+            #endregion
+
+
+            #region Lambda function: => goes to operator
+            //CheckDelegate del = new CheckDelegate(num => num > 10);
             //if (del(x))
             //{
             //    Console.WriteLine($"{x} is greater than 10");
@@ -183,22 +198,85 @@
             //else
             //{
             //    Console.WriteLine($"{x} is less than 10");
+            //} 
+            #endregion
+
+            #endregion
+
+
+            #region Predicate delegate : Built- in
+            //Predicate<int> evenpredicate = num => num % 2 == 0;
+            //Console.WriteLine($"{12} is Even : {evenpredicate(12)}");
+
+
+            //Predicate<int> predicate = num => num > 10;
+            ////Console.WriteLine(predicate(23));
+            //if (predicate(x))
+            //{
+            //    Console.WriteLine($"{x} is greater than 10");
             //}
+            //else
+            //{
+            //    Console.WriteLine($"{x} is less than 10");
+            //} 
             #endregion
 
+            #region Extension Method
+            //// extend functionality of built-in types : 
+            //// 1. Static class
+            //// 2. MEthod : static Method 
+            //// 3. this keyword
+            //int[] numbers = { 1, 2, 3, 4, 5 };
+            //Console.WriteLine(numbers.Sum());
+            ////numbers.changeArrayType
+            ////MyClass obj = new MyClass();
+            //List<int> nums = numbers.changeArrayType();
+            //for (int i = 0; i < nums.Count; i++)
+            //{
+            //    Console.WriteLine($"{nums[i]}");
+            //}
 
-            #region Lambda function: => goes to operator
-            CheckDelegate del = new CheckDelegate(num => num > 10);
-            if (del(x))
-            {
-                Console.WriteLine($"{x} is greater than 10");
-            }
-            else
-            {
-                Console.WriteLine($"{x} is less than 10");
-            }
+            //string email = "something@gmail.com";
+            ////email.CheckForValidEmailAddress();
+
+            ////Attribute [] attribute = attr.ToArray();
+
+            ////bool isValidEmail =obj.CheckForValidEmailAddress(email);
+            //bool isValidEmail = email.CheckForValidEmailAddress();
+            //Console.WriteLine(isValidEmail);
+
+            //double sal = 2345.678;
+            //int salary = sal.Demo(false,"abcd");
+            //Console.WriteLine(salary);
+
             #endregion
 
+            #region Iterator, Custom Collection
+            //List<int> list = new List<int>();
+            //list.Add(1);
+            //list.Add(2);
+            //list.Add(3);
+            //list.Add(4);
+            //list.Add(5);
+            ////foreach (var item in list)
+            ////{
+            ////    Console.WriteLine(item); // 1,2,3,4,5
+            ////}
+
+            ////for (int i = 0; i < list.Count; i++)
+            ////{
+            ////    Console.WriteLine(list[i]);
+            ////}
+
+            //CustomCollection myCollection = new CustomCollection();
+            //myCollection.Add("Mon");
+            //myCollection.Add("Tue");
+            //myCollection.Add("Wed");
+            ////myCollection.GetEnumerator()// index: 0, 1
+            //foreach (string item in myCollection) 
+            //{
+            //    Console.WriteLine(item);
+            //} 
             #endregion
         }
 
@@ -224,7 +302,68 @@
                 return true;
         }
     }
+    public class CustomCollection : IEnumerable
+    {
+        private List<string> _items = new List<string>();
 
+        public void Add(string element)
+        {
+            _items.Add(element);
+        }
+
+        public IEnumerator GetEnumerator()
+        {
+            for (int i = 0; i < _items.Count; i++)
+            {
+                yield return _items[i];//0,1
+            }
+        }
+    }
+    public class MyCollection<T> : IEnumerable<T>
+    {
+        private readonly List<T> _items = new List<T>();
+
+        // Add method to insert items
+        public void Add(T item)
+        {
+            _items.Add(item);
+        }
+
+        // Generic enumerator
+        public IEnumerator<T> GetEnumerator()
+        {
+            for (int i = 0; i < _items.Count; i++)
+            {
+                yield return _items[i];
+            }
+        }
+
+        // Non-generic enumerator required by IEnumerable
+        IEnumerator IEnumerable.GetEnumerator()
+        {
+            return GetEnumerator();
+        }
+
+
+    }
+    public class MyCollection : IEnumerable
+    {
+        private string[] days = new string[] { "Monday", "Tuesday", "Wedensday", "Thrusday", "Firday", "Saturday", "Sunday" };
+
+        public IEnumerator GetEnumerator()
+        {
+            for (int i = 0; i < days.Length; i++)
+            {
+                string day = days[i];
+                yield return day; // yield keyword is used to return the value from the iterator method. And it maintains last index value.
+            }
+        }
+
+        //public string[] Days
+        //{
+        //    get { return days; }
+        //}
+    }
     public class Holder
     {
         public int HId { get; set; }
@@ -290,5 +429,30 @@
             return $"Id: {Id}, Name: {Name}, Address; {Address}";
         }
 
+    }
+
+    public static class MyClass
+    {
+        // this parameter should be the first parameter of extension method. 
+        public static int Demo(this double d, bool b, string test)
+        {
+            Console.WriteLine($"{b}, {test}");
+            return Convert.ToInt32(d);
+        }
+        public static bool CheckForValidEmailAddress(this string email)
+        {
+            return email.Contains("@");
+        }
+        public static List<int> changeArrayType(this int[] arr)
+        {
+            List<int> lst = new List<int>();
+
+            for (int i = 0; i < arr.Length; i++)
+            {
+                lst.Add(arr[i]);
+            }
+
+            return lst;
+        }
     }
 }
