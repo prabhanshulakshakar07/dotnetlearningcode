@@ -16,6 +16,7 @@
   <Project Path="CMathLib/CMathLib.csproj" Id="678a468e-0515-45dd-85d0-60f8bed93a44" />
   <Project Path="Collections_Demo22/Collections_Demo22.csproj" Id="a9e630da-094c-414e-b6f8-9b73b05fe4ec" />
   <Project Path="CompanyLib/CompanyLib.csproj" Id="487ec850-9e79-48f2-8560-8d0644f68d00" />
+  <Project Path="ConnectedDemo_36/ConnectedDemo_36.csproj" Id="5d638485-9d83-4797-81e6-2ed6b5f6a384" />
   <Project Path="CSharpFeaturesDemo/CSharpFeaturesDemo.csproj" Id="a18d7301-69d3-4f05-8c2c-88597786a97f" />
   <Project Path="DelegateMethod/DelegateMethod.csproj" Id="2bc45c1e-e762-4f51-af67-79cddb1ec27b" />
   <Project Path="delegatesDemo/delegatesDemo.csproj" Id="494737aa-f73a-48da-97cd-4ffbdcfa5231" />
