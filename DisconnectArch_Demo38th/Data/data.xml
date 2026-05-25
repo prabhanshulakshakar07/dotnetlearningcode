@@ -1,0 +1,13 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <Emp>
+    <Id>1</Id>
+    <Name>prabhanshu</Name>
+    <Address>mp</Address>
+  </Emp>
+  <Emp>
+    <Id>2</Id>
+    <Name>mukund</Name>
+    <Address>mumbai</Address>
+  </Emp>
+</NewDataSet>
