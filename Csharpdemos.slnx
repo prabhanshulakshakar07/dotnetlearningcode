@@ -27,6 +27,7 @@
   <Project Path="DisconnectArch_Demo38th/DisconnectArch_Demo38th.csproj" Id="1ced0adf-ae59-4c81-9894-015fdeeb0895" />
   <Project Path="dotArch/dotArch.csproj" Id="ced49b1a-7ceb-4192-a22f-ddda13236b8e" />
   <Project Path="EmpLib/EmpLib.csproj" Id="515c54a7-bebb-47ff-8df1-6f95d53e9e44" />
+  <Project Path="EmptyTemplateDemo/EmptyTemplateDemo.csproj" Id="d5d4b416-da81-4b77-863a-5d9bcdb60ecf" />
   <Project Path="EntityFrameWork/EntityFrameWork.csproj" Id="fed51171-28f6-4410-8f06-0ab26a9c240c" />
   <Project Path="EventsDelegate_Demo19/EventsDelegate_Demo19.csproj" Id="5298d592-a4bb-4ceb-bb9a-90e8232c19a2" />
   <Project Path="FileIODemo25/FileIODemo25.csproj" Id="0b0e10b7-fba5-4cfa-b7cf-5b95169e43c6" />
@@ -37,6 +38,7 @@
   <Project Path="LINQ/LINQ.csproj" Id="f84bc892-982d-4c0a-8a80-5fcd2db14dd8" />
   <Project Path="LinqDemo/LinqDemo.csproj" Id="e549b5a3-e5f0-4a41-bb19-e73978f7bb38" />
   <Project Path="MultiDelegate_Demo/MultiDelegate_Demo.csproj" Id="68bb9805-f48f-49be-bcc7-2fb85a53e4a3" />
+  <Project Path="MVCEmptyDemo/MVCEmptyDemo.csproj" Id="c7630664-2e08-4e0a-bf07-253bca415a6d" />
   <Project Path="MyAttributeLib/MyAttributeLib.csproj" Id="f47fff61-ad6e-4588-8df6-bbe943fae4e9" />
   <Project Path="MyMathLib/MyMathLib.csproj" Id="941b734d-1b97-4c90-a23f-28de141dc023" />
   <Project Path="MyORMDemo30/MyORMDemo30.csproj" Id="22a07c80-fb95-46ef-8982-be904791814b" />
