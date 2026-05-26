@@ -1,0 +1,16 @@
+﻿﻿@using DisplayDataUsingActionMethod.Models
+@{
+    @foreach (Emp emp in @Model.es)
+    {
+        <p>@emp.Id</p>
+        <p>@emp.Name</p>
+        <p>@emp.Address</p>
+    }
+
+    @foreach (Customer cust in @Model.cs)
+    {
+        <p>@cust.CId</p>
+        <p>@cust.CName</p>
+    }
+
+}
