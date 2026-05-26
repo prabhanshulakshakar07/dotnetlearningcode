@@ -8,5 +8,9 @@ namespace MVCEmptyDemo.Controlers
         {
             return View();
         }
+        public IActionResult Data(string unm)
+        {
+            return View();
+        }
     }
 }

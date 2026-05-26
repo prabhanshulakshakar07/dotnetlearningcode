@@ -12,6 +12,7 @@
   <Project Path="11Demo/11Demo.csproj" Id="b132ae8b-3492-49f3-b152-8a6c336323ca" />
   <Project Path="12/12Demo.csproj" Id="74335221-6708-454b-90df-625993655510" />
   <Project Path="13Demo/13Demo.csproj" Id="7ac1adee-8d5e-471a-a285-50611a2c1f8c" />
+  <Project Path="AttributeBasedRouting_Demo/AttributeBasedRouting_Demo.csproj" Id="2584e10f-a7e6-4b56-bace-0410094a1c92" />
   <Project Path="BinarySerializationDemo26/BinarySerializationDemo26.csproj" Id="52cfb039-87e7-441b-9b6f-06e9b8e9d0d7" />
   <Project Path="CMathLib/CMathLib.csproj" Id="678a468e-0515-45dd-85d0-60f8bed93a44" />
   <Project Path="Collections_Demo22/Collections_Demo22.csproj" Id="a9e630da-094c-414e-b6f8-9b73b05fe4ec" />
@@ -25,6 +26,7 @@
   <Project Path="Demo16_MyMath/Demo16_MyMath.csproj" Id="6a3ef493-d2c5-4a0a-b760-d7106b0f2a3b" />
   <Project Path="DemoLib/DemoLib.csproj" Id="c20066bf-a666-48f5-88dd-596e9b66a3a1" />
   <Project Path="DisconnectArch_Demo38th/DisconnectArch_Demo38th.csproj" Id="1ced0adf-ae59-4c81-9894-015fdeeb0895" />
+  <Project Path="DisplayDataUsingActionMethod/DisplayDataUsingActionMethod.csproj" Id="140faabd-a0a9-4570-ade1-1c7978f124e0" />
   <Project Path="dotArch/dotArch.csproj" Id="ced49b1a-7ceb-4192-a22f-ddda13236b8e" />
   <Project Path="EmpLib/EmpLib.csproj" Id="515c54a7-bebb-47ff-8df1-6f95d53e9e44" />
   <Project Path="EmptyTemplateDemo/EmptyTemplateDemo.csproj" Id="d5d4b416-da81-4b77-863a-5d9bcdb60ecf" />

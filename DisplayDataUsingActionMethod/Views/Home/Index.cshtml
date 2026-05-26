@@ -1,0 +1,14 @@
+﻿﻿<h1>Home : Index </h1>
+
+@{
+    // Razor Syntax : Blend => RazorViewEngine
+    // Razor Block: C# + HTML = .cshtml
+    // ArrayList
+    <ul>
+        @foreach (object item in Model)
+        {
+            // <p>@item</p>
+            <li>@item</li>
+        }
+    </ul>
+}
