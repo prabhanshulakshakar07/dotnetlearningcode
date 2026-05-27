@@ -15,7 +15,8 @@ namespace ConnectedDB.Controllers
 
         public IActionResult Index()
         {
-            return View();
+            List<Emp> emps = _DbContext.emps.ToList();
+            return View(emps);
         }
     }
 }

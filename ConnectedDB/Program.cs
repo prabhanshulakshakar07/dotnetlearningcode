@@ -13,7 +13,7 @@ namespace ConnectedDB
             builder.Services.AddControllersWithViews();
             builder.Services.AddScoped<EmpDbContext>();
             builder.Services.AddDbContext<MyDbContext>(options =>
-            options.UseSqlServer("conStr")
+            options.UseSqlServer(builder.Configuration.GetConnectionString("conStr"))
                 );
 
             var app = builder.Build();
@@ -34,7 +34,7 @@ namespace ConnectedDB
             app.MapStaticAssets();
             app.MapControllerRoute(
                 name: "default",
-                pattern: "{controller=Home}/{action=Index}/{id?}")
+                pattern: "{controller=Emp}/{action=Index}/{id?}")
                 .WithStaticAssets();
 
             app.Run();

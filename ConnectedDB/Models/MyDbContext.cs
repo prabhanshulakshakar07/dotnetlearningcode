@@ -7,7 +7,7 @@ namespace ConnectedDB.Models
 
     {
         public DbSet<Emp> emps { get; set; }
-        public MyDbContext(DbContextOptions<MyDbContext> options) : base(options)
+        public MyDbContext(DbContextOptions options) : base(options)
         {
 
         }

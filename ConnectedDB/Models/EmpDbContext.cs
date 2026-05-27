@@ -22,7 +22,8 @@ namespace ConnectedDB.Models
                 {
                     con.Open();
 
-                    SqlDataReader reader = cmd.ExecuteReader();
+                    SqlDataReader sqlDataReader = cmd.ExecuteReader();
+                    SqlDataReader reader = sqlDataReader;
 
                     while (reader.Read())
                     {
