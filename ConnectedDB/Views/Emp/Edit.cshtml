@@ -1,0 +1,30 @@
+﻿@model ConnectedDB.Models.Emp
+
+@{
+
+    ViewData["Title"] = "Edit";
+}
+
+
+
+
+<h1>Update Emp Record</h1>
+
+<div class="row">
+    <div class="col-md-8">
+        <form asp-controller="Emp" asp-action="UpdateRecord">
+            <input asp-for="Id" hidden />
+            <div class="form-control">
+                <label asp-for="@Model.Name" class="form-label"></label>
+                <input asp-for="Name" class="form-control" />
+            </div>
+            <div class="form-control">
+                <label asp-for="@Model.Address" class="form-label"></label>
+                <input asp-for="Address" class="form-control" />
+            </div>
+            <div class="form-control">
+                <input type="submit" value="Edit Emp Record" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
